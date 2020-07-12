@@ -19,13 +19,13 @@ function destructivelyRemoveFirstKitten(){
 }
 function appendKitten(name){
   var name1 = [...kittens, name];
-  return name1
+  return name1;
 }
 function prependKitten(name){
   var name2 = [name,...kittens];
-  return name2
+  return name2;
 }
 function removeLastKitten(){
   var cat = kittens.slice(0,kittens.lenght-1);
-  return cat
+  return cat;
 }
